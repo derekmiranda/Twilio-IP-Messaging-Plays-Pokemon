@@ -1,7 +1,7 @@
 {
   "name": "twilio-ip-messaging-plays-pokemon",
   "version": "0.1.0",
-  "description": "",
+  "description": "Recreation of Twitch Plays Pokemon using Twilio. NOTE: Server also requires Cairo (https://www.cairographics.org/download/) for node-canvas dependency.",
   "dependencies": {
     "blob": "0.0.1",
     "debug": "0.7.4",
