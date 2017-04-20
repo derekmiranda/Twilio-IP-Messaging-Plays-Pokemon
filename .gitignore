@@ -1,3 +1,9 @@
+# API Bash script to set token
+.env
+
+# GameBoy ROMs
+*.gb
+
 # Logs
 logs
 *.log
