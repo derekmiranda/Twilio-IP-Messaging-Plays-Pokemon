@@ -18,6 +18,7 @@
   },
   "scripts": {
     "deps": "npm install && cd weplay && npm install && cd ../weplay-emulator && npm install",
+    "prestart": "WEPLAY_ROM=./pokemon-red.gb",
     "start": "cd weplay-emulator && node index.js & cd weplay && node index.js & node index.js"
   }
 }
