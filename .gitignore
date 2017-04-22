@@ -4,6 +4,9 @@
 # GameBoy ROMs
 *.gb
 
+# Ignore Redis dump
+*.rdb
+
 # Logs
 logs
 *.log
