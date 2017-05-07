@@ -5,6 +5,7 @@
   "dependencies": {
     "blob": "0.0.1",
     "debug": "0.7.4",
+    "dotenv": "^4.0.0",
     "express": "^3.21.2",
     "jquery": "^1.11.0",
     "mustache-express": "^1.0.1",
@@ -18,6 +19,6 @@
   },
   "scripts": {
     "deps": "npm install && cd weplay && npm install && cd ../weplay-emulator && npm install",
-    "start": "./.env cd weplay-emulator && node index.js & cd weplay && node index.js & node index.js"
+    "start": "node index"
   }
 }

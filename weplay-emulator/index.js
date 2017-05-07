@@ -10,6 +10,8 @@ if (!process.env.WEPLAY_ROM) {
   console.log('You must specify the ENV variable `WEPLAY_ROM` '
     + 'pointint to location of rom file to broadcast.');
   process.exit(1);
+} else {
+  console.log('ENV set');
 }
 
 process.title = 'weplay-emulator';
