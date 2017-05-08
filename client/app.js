@@ -3,7 +3,6 @@ var $ = require('jquery');
 var io = require('socket.io-client');
 var blobToImage = require('./blob');
 var chat = require('./chat');
-var censor = require('./censor');
 
 // Global variables
 var socket = io(config.io);
@@ -149,7 +148,7 @@ $('.input form').submit(function(ev) {
 
   // Create an array of strings corresponding to GameBoy buttons to test against input
   var gbButtons = ['left', 'right', 'up', 'down', 'a', 'b', 'start', 'select'];
-  var enteredText = censor(input.val());
+  var enteredText = input.val();
 
   // Do nothing if no text was entered.
   if ('' === enteredText) {
